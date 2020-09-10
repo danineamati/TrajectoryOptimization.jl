@@ -19,7 +19,6 @@ simplified rocket soft-landing scenario (i.e. no SOCP constraints and
 no attitude dynamics).
 
 https://github.com/danineamati/TrajOptSOCPs.jl
-
 =#
 
 struct Rocket{T} <: AbstractModel
